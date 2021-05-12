@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background: cyan;
+    margin: 0;
+}
+.Control{
+  font-size: larger;
+  float: right;
+  list-style: none;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Dough{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 10;
+}
+#Fruit:hover{
+    background: midnightblue;
+    text-align: center;
+    color: seashell;
+}
+#Fruit{
+    z-index: 9;
+    margin-top: 100px;
+}
+#Phoenix:hover{
+    background: rgb(8, 58, 133);
+    text-align: center;
+    color: seashell;
+}
+#Phoenix{
+    z-index: 8;
+    margin-top: 100px;
+}
+#Dragon:hover{
+    background: black;
+    text-align: center;
+    color: seashell;
+}
+#Dragon{
+    z-index: 7;
+    margin-top: 100px;
+}
+.Rumble{
+    width: 50px;
+    height: 17px;
+    background-color: darkturquoise;
+    margin: 10px auto;
+}
+img{
+    width: 300px;
+    height: 600px;
+}
